@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="laptop.css">
     <title>Contact Greeshma</title>
 </head>
 <body>
+
+ <div id="wrapper">
+
+        <h1>Contact Me</h1>
+
+        <form 
+        action="mailto:greeshma.saji@ontariotechu.net"
+        method="post"
+        enctype="text/plain"
+        name="form">
+        <p>
+            <label for="First_name">First Name :</label>
+            <input type="text" name="First_name" size="32"
+            placeholder="Enter your first name" 
+            required>
+        </p>
+        <p>
+            <label for="Last_name">Last Name :</label>
+            <input type="text" name="Last_name" size="32"
+            placeholder="Enter your last name" 
+            required>
+        </p>
+        <p>
+            <label for="email">Email :</label>
+            <input type="email" name="email" size="32" 
+            placeholder="Enter your email address" 
+            required>
+        </p>
+        <p>
+            <label for="Message">Message</label>
+            <br>
+            <textarea name="Message" cols="60" rows="6"
+            required></textarea>
+        </p>
+
     
+     
+        <p>
+            <label for="feedback">Website feedback (Optional)</label>
+            <br>
+            <textarea name="feedback" cols="60" rows="6"></textarea>
+        </p>
+        
+        
+        
+        <input type="submit" value="Click here to submit the form">
+        <input type="reset" value="Click here to reset the form">
+        </form>
+        
+
+        
+    </div>
 </body>
 </html>

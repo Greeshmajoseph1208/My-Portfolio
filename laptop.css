@@ -1,0 +1,132 @@
+/* Cascading Style Sheet*/
+/* CSS-3 */
+/* color combinations
+ #A60321, #F2E9D8, #8C5C32, #D9A577, #D97B66 */
+
+
+ @charset "UTF-8";
+
+video
+{
+    margin: 15px;
+    padding: 15px;
+    background-color: #8C5C32;
+    border: 2px #F2E9D8 solid;
+    box-shadow: 10px 10px 5px #D97B66;
+
+}
+
+button
+{
+    margin: 15px;
+    padding: 5px;
+    background-color: #A60321;
+    color: #F2E9D8;
+    height: 40px;
+    border: 2px #F2E9D8 solid;
+    box-shadow: 10px 10px 5px #8C5C32;
+    border-radius: 5px;
+}
+
+button:hover
+{
+    margin: 15px;
+    padding: 5px;
+    background-color: #D97B66;
+    color: #F2E9D8;
+    height: 40px;
+    border: 2px #F2E9D8 solid;
+    box-shadow: -10px -10px 5px #8C5C32;
+    border-radius: 5px;
+}
+
+#wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#F2E9D8;
+}
+
+header,footer
+{
+    background-color: #8C5C32;
+    color: #F2E9D8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+aside
+{
+    background-color: beige;
+    float: right;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+figure
+{
+     position: relative;
+    width: 220px;
+    height: 200px;
+    background-color: #F2E9D8;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #8C5C32;
+}
+img
+{
+    width: 220px;
+}
+figcaption
+{
+    position: bottom;
+    background-color: #A60321;
+    color: #F2E9D8;
+}
+#right-column
+{
+    width: 70%;
+    height: 600px;
+    float:right;
+    background-color: #F2E9D8;
+}
+#left-column
+{
+    width: 30%;
+    height: 600px;
+    float:left;
+    background-color: #D9A577;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,li {
+    margin: 15px;
+    color: #8C5C32;
+}
+#footer
+{
+    height: 80px;
+}
+.clear
+{
+    clear: both;
+}
+#banner
+{
+    height: 120px;
+    background-color: #A60321;
+}
+
+#banner h1
+{
+    padding-top: 15px;
+    color: #F2E9D8;
+}
+body
+{
+    font-family: JetBrains Mono;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #F2E9D8 0%, #D97B66 100%);
+}
+
