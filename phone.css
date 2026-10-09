@@ -1,0 +1,121 @@
+/* Cascading Style Sheet*/
+/* CSS-3 */
+/* color combinations
+    color theme_Sabrina_Shooting Benicarlo
+    #A60321, #F2E9D8, #8C5C32, #D9A577, #D97B66 */
+
+
+ @charset "UTF-8";
+
+video
+{
+    margin: 15px;
+    padding: 15px;
+    background-color: #8C5C32;
+    border: 2px #F2E9D8 solid;
+    box-shadow: 10px 10px 5px #D97B66;
+
+}
+.box {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #8C5C32;
+    background-color: #D9A577;
+    box-sizing: border-box;
+}
+
+#wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#F2E9D8;
+}
+
+header,footer
+{
+    background-color: #8C5C32;
+    color: #F2E9D8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+figure
+{
+    position: relative;
+    width: 220px;
+    height: 200px;
+    background-color: #F2E9D8;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #8C5C32;
+}
+img
+{
+    width: 220px;
+}
+figcaption
+{
+    position: bottom;
+    background-color: #A60321;
+    color: #F2E9D8;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p, {
+    margin: 15px;
+    color: #0c0c0c;
+}
+#footer
+{
+    height: 80px;
+}
+.left-box {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #8C5C32;
+    background-color: #D9A577;
+    box-sizing: border-box;
+}
+.right-box {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #8C5C32;
+    background-color: #D9A577;
+    box-sizing: border-box;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: beige;
+}
+
+.clear
+{
+    clear: both;
+}
+#banner
+{
+    height: 120px;
+    background-color: #A60321;
+}
+
+#banner h1
+{
+    padding-top: 15px;
+    color: #F2E9D8;
+}
+body
+{
+    font-family: JetBrains Mono;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #F2E9D8 0%, #D97B66 100%);
+}
+

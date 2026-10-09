@@ -1,7 +1,8 @@
 /* Cascading Style Sheet*/
 /* CSS-3 */
 /* color combinations
- #A60321, #F2E9D8, #8C5C32, #D9A577, #D97B66 */
+    color theme_Sabrina_Shooting Benicarlo
+    #A60321, #F2E9D8, #8C5C32, #D9A577, #D97B66 */
 
 
  @charset "UTF-8";
@@ -23,29 +24,6 @@ video
     background-color: #D9A577;
     box-sizing: border-box;
 }
-button
-{
-    margin: 15px;
-    padding: 5px;
-    background-color: #A60321;
-    color: #F2E9D8;
-    height: 40px;
-    border: 2px #F2E9D8 solid;
-    box-shadow: 10px 10px 5px #8C5C32;
-    border-radius: 5px;
-}
-
-button:hover
-{
-    margin: 15px;
-    padding: 5px;
-    background-color: #D97B66;
-    color: #F2E9D8;
-    height: 40px;
-    border: 2px #F2E9D8 solid;
-    box-shadow: -10px -10px 5px #8C5C32;
-    border-radius: 5px;
-}
 
 #wrapper
 {
@@ -62,17 +40,10 @@ header,footer
     padding-top: 5px;
     padding-bottom: 5px;
 }
-aside
-{
-    background-color: beige;
-    float: right;
-    width: 300px;
-    margin: 5px;
-    padding: 5px;
-}
+
 figure
 {
-     position: relative;
+    position: relative;
     width: 220px;
     height: 200px;
     background-color: #F2E9D8;
@@ -90,47 +61,39 @@ figcaption
     background-color: #A60321;
     color: #F2E9D8;
 }
-#right-column
-{
-    width: 70%;
-    height: 600px;
-    float:right;
-    background-color: #F2E9D8;
-}
-#left-column
-{
-    width: 30%;
-    height: 600px;
-    float:left;
-    background-color: #D9A577;
-}
 
 
-h1,h2,h3,h4,h5,h6,p,li {
+
+h1,h2,h3,h4,h5,h6,p, {
     margin: 15px;
-    color: #8C5C32;
+    color: #0c0c0c;
 }
 #footer
 {
     height: 80px;
 }
 .left-box {
-    width: 46%;
-    float: left;
-    margin: 1%;
-    padding: 1%;
-    background-color: #D9A577;
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
     border: 2px solid #8C5C32;
+    background-color: #D9A577;
     box-sizing: border-box;
 }
 .right-box {
-    width: 46%;
-    float: right;
-    margin: 1%;
-    padding: 1%;
-    background-color: #D9A577;
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
     border: 2px solid #8C5C32;
+    background-color: #D9A577;
     box-sizing: border-box;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: beige;
 }
 
 .clear
