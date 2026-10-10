@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="laptop.css">
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
+
     <title>Contact Greeshma</title>
 </head>
 <body>
 
- <div id="wrapper">
+<div id="wrapper">
 
+    <div id="banner">
         <h1>Contact Me</h1>
+        <nav>
+                <h3>
+                    <a href="home.html">Home Page</a> 
+                    <a href="about.html">About Me</a> 
+                    <a href="projects.html">My Projects</a> 
+                    <a href="contact.html">Contact Me</a>
+                   
+                </h3>
+            </nav>
+    </div>
 
-        <form 
+    <div id="content">
+
+        <form
+
         action="mailto:greeshma.saji@ontariotechu.net"
         method="post"
         enctype="text/plain"
@@ -36,18 +53,24 @@
             required>
         </p>
         <p>
+            <label for="phone">Phone Number :</label>
+            <input type="tel" name="Phone" size="32" 
+            placeholder="Enter your Phone Number" 
+            required>
+        </p>
+        <p>
             <label for="Message">Message</label>
             <br>
-            <textarea name="Message" cols="60" rows="6"
+            <textarea name="Message" cols="45" rows="6"
             required></textarea>
         </p>
 
-    
-     
+
+        
         <p>
-            <label for="feedback">Website feedback (Optional)</label>
+            <label for="feedback">Website Feedback (Optional)</label>
             <br>
-            <textarea name="feedback" cols="60" rows="6"></textarea>
+            <textarea name="feedback" cols="45" rows="6"></textarea>
         </p>
         
         
@@ -55,14 +78,20 @@
         <input type="submit" value="Click here to submit the form">
         <input type="reset" value="Click here to reset the form">
         </form>
-
-        <footer>
-            <h6>Copyright 2026 @Greeshma Saji</h6>
-            <h6>Contact: greeshma.saji@ontariotechu.net</h6>
-        </footer>
-        
-
-        
     </div>
+
+    <footer>
+        <h6>Copyright 2026 @Greeshma Saji</h6>
+        <address>
+        <p>Contact me at <a href="greeshma.saji@ontariotechu.net">greeshma.saji@ontariotechu.net</a></p>
+        </address>
+            
+    </footer>
+
+    
+        
+
+        
+</div>
 </body>
 </html>
