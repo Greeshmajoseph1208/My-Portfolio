@@ -58,7 +58,12 @@ video
     padding: 15px;
     border: 2px solid #8C5C32;
     background-color: #D9A577;
-    box-sizing: border-box;
+    background: radial-gradient(
+        ellipse at center,
+        #F2E9D8 40%,
+        #D9A577 60%,
+        #8C5C32 100%
+    );
 }
 
 
