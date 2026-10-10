@@ -5,6 +5,7 @@
 
     #wrapper {
         width: 95%;
+        height: auto;
     }
 
     
@@ -27,6 +28,7 @@
         width: 90%;
         height: auto;
         box-sizing: border-box;
+        background-color: #12340a79;
     }
     img {
         width: 70%;
