@@ -5,13 +5,14 @@
 
     #wrapper {
         width: 95%;
+        height: auto;
     }
 
     
 
   
     #banner {
-        height: 100px;
+        height: auto;
         
     }
 
@@ -27,9 +28,10 @@
         width: 90%;
         height: auto;
         box-sizing: border-box;
+        background-color: #12340a79;
     }
     img {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
     video {
@@ -38,11 +40,20 @@
     margin: 5px;
     padding: 5px;
     }
-    
-      h1,h2,h3,h4,h5,h6,p {
+
+    figure {
+    width: 50%;
+    height: auto;
+    }
+
+    h1,h2,h3,h4,h5,h6,p {
         margin-left: 15px;
         margin-top: 0px;
     }
+    nav {
+        text-align: center;
+    }
+    
 
 
    

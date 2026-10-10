@@ -11,8 +11,8 @@
 
 #wrapper
 {
-    width: 90%;
-    height: 860px;
+    width: 960px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color:#F2E9D8;
@@ -76,6 +76,7 @@ header,footer
     color: #F2E9D8;
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 
 
@@ -87,8 +88,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 #content {
-    width: 80%;
-    height: 78%;
+    width: 90%;
+    height: auto;
     margin: auto;
     padding: 10px;
     background-color: #F2E9D8;
@@ -112,9 +113,9 @@ textarea {
 }
 body
 {
-    font-family: JetBrains Mono;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(to bottom, #F2E9D8 0%, #D97B66 100%);
+    background: linear-gradient(to bottom, #F2E9D8 0%, #D9A577 100%);
 }
 
